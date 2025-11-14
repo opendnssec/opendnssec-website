@@ -26,8 +26,8 @@ A migration is needed to migration from 1.4 to 2.1.
 6. In case you have an MySQL/MariaDB installation execute the convert_mysql script from the enforcer/utils/1.4-2.0_db_convert directory from the source distribution (or from your packaged distribution).
 7. Call the script like so: ./convert_sqlite -i INPUT -o OUTPUT -h HOST -u USER -p PASSWORD. Where INPUT is the name of the existing database on HOST. And OUTPUT is a non-existing database on the same host where the new database should go. On success, replace old database with the new database file or adjust conf.xml accordingly.
 8. Review your configuration file. Potentially the following items need editing:
-- The <Interval> element wasn’t relevant anymore and is now been dropped entirely and must be removed from the configuration. The Enforcer now wakes as needed rather than periodically.
-- The <MySQL><Host> child element is now mandatory. Set to localhost as content if not present. The Port attribute must also be present during migration. For example: <Datastore><MySQL><Host Port="3306">&localhost</Host<...
+  - The `<Interval>` element wasn’t relevant anymore and is now been dropped entirely and must be removed from the configuration. The Enforcer now wakes as needed rather than periodically.
+  - The `<MySQL><Host>` child element is now mandatory. Set to localhost as content if not present. The Port attribute must also be present during migration. For example: `<Datastore><MySQL><Host Port="3306">&localhost</Host<...`
 9. Now run the command ods-migrate to complete the migration. This command accesses the HSM to compute keytags and stores them in the enforcer database.
 10. When coming from ODS1.4 you need to copy the file /etc/opendnssec/zonelist.xml to /var/opendnssec/enforcer/zones.xml
 
