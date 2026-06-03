@@ -10,7 +10,7 @@ OpenDNSSEC is a policy-based zone signer that automates the process of keeping t
 
 ## End-of-Life Roadmap for OpenDNSSEC
 
-On 2025-10-03 the end-of-life roadmap for OpenDNSSEC was [announced](https://www.nlnetlabs.nl/news/2025/Oct/03/opendnssec-eol-announcement/). No new features will be developed, only critical bug fixes and security updates will be released. Users are encouraged to begin evaluating [Cascade](https://blog.nlnetlabs.nl/cascade/), our upcoming DNSSEC signing solution.
+On 2025-10-03 the end-of-life roadmap for OpenDNSSEC was [announced](https://www.nlnetlabs.nl/news/2025/Oct/03/opendnssec-eol-announcement/). From October 2027, OpenDNSSEC reaches its official End-of-Life and no further updates or support will be provided. Until then no new features will be developed, only critical bug fixes and security updates will be released. Users are encouraged to begin evaluating [Cascade](https://blog.nlnetlabs.nl/cascade/), our upcoming DNSSEC signing solution.
 
 ## OpenDNSSEC 2.1.14
 
