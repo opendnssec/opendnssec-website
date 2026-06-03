@@ -8,6 +8,10 @@ hide:
 
 OpenDNSSEC is a policy-based zone signer that automates the process of keeping track of DNSSEC keys and the signing of zones. The goal of the project is to make DNSSEC easy to deploy. The project is Open Source and intends to drive adoption of Domain Name System Security Extensions (DNSSEC) to further enhance Internet security.
 
+## End-of-Life Roadmap for OpenDNSSEC
+
+On 2025-10-03 the end-of-life roadmap for OpenDNSSEC was [announced](https://www.nlnetlabs.nl/news/2025/Oct/03/opendnssec-eol-announcement/). No new features will be developed, only critical bug fixes and security updates will be released. Users are encouraged to begin evaluating [Cascade](https://blog.nlnetlabs.nl/cascade/), our upcoming DNSSEC signing solution.
+
 ## OpenDNSSEC 2.1.14
 
 Version 2.1.14 of OpenDNSSEC has been released on 2024-08-22.
