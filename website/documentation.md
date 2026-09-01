@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The [documentation for OpenDNSSEC](https://opendnssec.readthedocs.io/) gives information on how to install, configure, and run OpenDNSSEC. Also in our docs we host a list of [frequently asked questions](https://opendnssec.readthedocs.io/en/latest/faq/). New users might be interested in our [OpenDNSSEC Initial Deployment Guide](https://www.opendnssec.org/wp-content/uploads/2009/06/opendnssec-start-guide.pdf).
+The [documentation for OpenDNSSEC](https://opendnssec.readthedocs.io/) gives information on how to install, configure, and run OpenDNSSEC. Also in our docs we host a list of [frequently asked questions](https://opendnssec.readthedocs.io/en/latest/faq/).
 
 ### SoftHSM
 
